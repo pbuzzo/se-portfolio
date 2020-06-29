@@ -1,0 +1,138 @@
+/* styles.css */
+
+html {
+    height: 100%;
+    background: #222 url('../static/img/portbg.jpg') center center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+#cover {
+    background: transparent center center no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto!important;
+    position: absolute !important;
+    width: 100% !important;
+    overflow-y: hidden !important;
+}
+
+#cover-captiion {
+    width: 100%;
+}
+
+.banner_div {
+    margin: auto!important;
+}
+
+#forms {
+    flex-flow: nowrap!important;
+}
+
+.btn-sm {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 50%!important;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form_group {
+    padding: none!important;
+}
+
+.form-signin {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.h3 {
+    margin-top: -15px!important;
+    color: black;
+    font-size: small;
+}
+
+.card-deck {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('img/girlincar.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#about-btn {
+    color: white;
+}
+
+/* typewriter */
+
+.typewriter .type_header {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    padding-bottom: 1rem;
+    animation: 
+      typing 2.5s steps(40, end),
+      blink-caret .75s step-end 8;
+  }
+  
+
+  /* The typing effect */
+  @keyframes typing {
+    from { max-width: 0 }
+    to { max-width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:rgb(32, 33, 58); }
+  }
+
+
+.nav-item {
+    border-left: 1px solid silver;
+    padding-left: 2rem;
+}
+
+#nav-name {
+    margin-left: -3rem;
+}
+
+#homepage_div {
+    border: 2.5px solid black;
+    border-radius: 15%;
+    background-color: whitesmoke;
+    margin-bottom: 3rem;
+    -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+}
+
+#desc {
+    margin-bottom: -3px;
+}
