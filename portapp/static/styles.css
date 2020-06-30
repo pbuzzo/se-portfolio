@@ -4,7 +4,7 @@ html {
     height: 100%;
     background: #222 url('../static/img/portbg.jpg') center center no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 img {
@@ -17,15 +17,15 @@ img {
     color: black;
     height: 100%;
     text-align: center;
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    margin: auto!important;
+    margin: auto !important;
     position: absolute !important;
     width: 100% !important;
     overflow-y: hidden !important;
 }
 
-#cover-captiion {
+#cover-caption {
     width: 100%;
 }
 
@@ -67,8 +67,8 @@ img {
     padding-bottom: 2%;
 }
 
-.section-content {
-    padding: 5rem 0;
+body {
+    background: transparent !important;
 }
 
 #about {
@@ -136,3 +136,65 @@ img {
 #desc {
     margin-bottom: -3px;
 }
+
+div#cont-div {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    background-color: rgb(108, 108, 108) !important;
+    border: 2px solid black !important;
+    border-radius: 3rem;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+    /* -webkit-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75); */
+}
+
+.contact_header {
+    margin-top: -1rem !important;
+}
+
+#contact_url {
+    text-shadow: -1px -1px 0 #222, 1px -1px 0 #222, -1px 1px 0 #222, 1px 1px 0 #222;
+}
+
+
+/* projects.html */
+.jumbotron {
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background: transparent !important;
+  }
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+    }
+}
+  
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+  
+.jumbotron h1 {
+    color: black;
+}
+  
+.jumbotron .container {
+    max-width: 40rem;
+}
+  
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+  
+footer p {
+    margin-bottom: .25rem;
+}
+
+/* homepage ribbon */
+

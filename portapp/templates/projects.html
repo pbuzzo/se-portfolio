@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<main role="main">
+
+    <div style="overflow: scroll !important" id="cover" class="position-relative overflow-hidden p-3 m-md-3 text-center">
+        <section class="jumbotron text-center">
+            <div class="container">
+            <div class="typewriter">
+                <h1 class="type_header contact_header">Developer Projects</h1>
+            </div>
+            <p class="lead">
+                Great to see you! These are a few of my most-prideful developer projects— Give 'em a peak!
+            </p>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+            <div class="row">
+                <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="/static/img/charcode.gif"/>
+                    <div class="card-body">
+                    <p class="card-text">
+                        A MERN-stack web application that serves as a platform for 
+                        aspiring developers to connect to non-profits in need of web presence. 
+                        Features text-message notifications through Twilio's API 
+                        with Express.js as the backend and React as the UI
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Code</button>
+                        </div>
+                        <small class="text-muted">Solo Project</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="/static/img/kwitter.gif"/>
+                    <div class="card-body">
+                    <p class="card-text">
+                        A fully-functional Twitter clone with a React-Redux spin to it. Key features include user-creation/admin 
+                        capabilities, file uploading in both posts and for profile pictures, authorization restrictions on specific pages, integrated and filtered message feeds, and responsive design.
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Code</button>
+                        </div>
+                        <small class="text-muted">Group Project</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="/static/img/craigscrape.gif"/>
+                    <div class="card-body">
+                    <p class="card-text">
+                        A command line tool that routinely scrapes Craigslist's job sections for newly-available listings, 
+                        and logs/reports each new finding to both a log file and text file for easy-access. 
+                    </p>
+                    <br><br>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Code</button>
+                        </div>
+                        <small class="text-muted">Solo Project</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="/static/img/phonestore.gif"/>
+                    <div class="card-body">
+                    <p class="card-text">
+                        A React.js phone e-commerce project with Bootstrap utilization and Paypal 
+                        integration. Allows users to add to, delete from, and check out their carts 
+                        as they please. 
+                    </p>
+                    <br>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Code</button>
+                        </div>
+                        <small class="text-muted">Solo Project</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="10%" height="225" src="/static/img/bookstore.gif"/>
+                    <div class="card-body">
+                    <p class="card-text">
+                        A full-stack project that consists of a React.js front-end, along with a MongoDB/Mongoose back-end. Users, 
+                        by design, can create/edit entries at will and will be redirected to an updayted frontpage. 
+                    </p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">View Code</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4" style="margin-top: 6.5rem; !important">
+                <div class="card shadow-sm" width="10%" height="225">
+                    <div class="card-body">
+                    <p class="card-text">Check Out The Code Behind These Projects, Along With the Rest Of My Work!</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <button onclick="location.href='https://github.com/pbuzzo/'" type="button" class="btn btn-md btn-outline-secondary">Github</button>
+                            <button onclick="location.href='https://gitlab.com/pkbuzzo/'" type="button" class="btn btn-md btn-outline-secondary">Gitlab</button>
+                        </div>
+                        <small class="text-muted">Solo Project</small>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="card mb-2 shadow-sm">
+
+            </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+{% endblock %}

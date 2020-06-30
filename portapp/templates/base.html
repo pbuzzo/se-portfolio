@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     {% block style_base %}
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="static/styles.css">
+      <link rel="stylesheet" type="text/css" href="/static/styles.css">
     {% endblock %}
 
   </head>
@@ -17,11 +17,11 @@
 
     <nav class="site-header sticky-top py-1 bg-light">
         <div id="navbarHeader" class="container d-flex flex-column flex-md-row justify-content-between">
-            <h1 id="nav-name"><a style="color: black;" href="/">PATRICK BUZZO</a></h1>
-            <a class="py-2 d-none d-md-inline-block" href="#">About Me</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Projects</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Resume</a>
-            <a class="py-2 d-none d-md-inline-block" href="#">Blog</a>
+            <h2 id="nav-name"><a style="text-decoration: none; color: black;" href="/">PATRICK BUZZO</a></h2>
+            <a class="py-2 d-none d-md-inline-block" href="/skills">Skills</a>
+            <a class="py-2 d-none d-md-inline-block" href="/projects">Projects</a>
+            <a class="py-2 d-none d-md-inline-block" href="/resume">Resume</a>
+            <a class="py-2 d-none d-md-inline-block" href="/certifications">Certifications</a>
             <a class="py-2 d-none d-md-inline-block" href="/contact">Get In Touch</a>
         </div>
     </nav>
