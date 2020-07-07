@@ -16,15 +16,30 @@
   <body>
 
     <nav class="site-header sticky-top py-1 bg-light">
-        <div id="navbarHeader" class="container d-flex flex-column flex-md-row justify-content-between">
-            <h2 id="nav-name"><a style="text-decoration: none; color: black;" href="/">PATRICK BUZZO</a></h2>
-            <a class="py-2 d-none d-md-inline-block" href="/skills">Skills</a>
-            <a class="py-2 d-none d-md-inline-block" href="/projects">Projects</a>
-            <a class="py-2 d-none d-md-inline-block" href="/resume">Resume</a>
-            <a class="py-2 d-none d-md-inline-block" href="/certifications">Certifications</a>
-            <a class="py-2 d-none d-md-inline-block" href="/contact">Get In Touch</a>
-        </div>
+      <div id="navbarHeader" class="container d-flex flex-column flex-md-row justify-content-between">
+          <h2 id="nav-name"><a style="text-decoration: none; color: black;" href="/">PATRICK BUZZO</a></h2>
+          <a class="py-2 d-none d-md-inline-block" href="/skills">Skills</a>
+          <a class="py-2 d-none d-md-inline-block" href="/projects">Projects</a>
+          <a class="py-2 d-none d-md-inline-block" href="/resume">Resume</a>
+          <a class="py-2 d-none d-md-inline-block" href="/certifications">Certifications</a>
+          <a class="py-2 d-none d-md-inline-block" href="/contact">Get In Touch</a>
+      </div>
     </nav>
+    {% comment %} <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#startupNavbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <h2 id="nav-name"><a class="navbar-brand" style="text-decoration: none; color: black;" href="/">PATRICK BUZZO</a></h2>
+        <div class="collapse navbar-collapse" id="startupNavbar">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0 ">
+                <a class="py-2 d-none d-md-inline-block" href="/skills">Skills</a>
+              <a class="py-2 d-none d-md-inline-block" href="/projects">Projects</a>
+              <a class="py-2 d-none d-md-inline-block" href="/resume">Resume</a>
+              <a class="py-2 d-none d-md-inline-block" href="/certifications">Certifications</a>
+              <a class="py-2 d-none d-md-inline-block" href="/contact">Get In Touch</a>
+            </ul>
+        </div>
+    </nav> {% endcomment %}
     {% block content %}
     {% endblock %}
     
